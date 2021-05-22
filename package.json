@@ -33,6 +33,6 @@
     "mocha": "^6.2.2"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/crypto-birds"
   }
 }
