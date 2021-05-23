@@ -1,6 +1,6 @@
 {
   "name": "@crypto-birds/coingecko-api-pro",
-  "version": "0.1",
+  "version": "0.0.1",
   "description": "A Node.js wrapper for the CoinGecko API with no dependencies.",
   "main": "index.js",
   "homepage": "https://github.com/crypto-birds/CoinGecko-API#readme",
