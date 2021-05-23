@@ -1,4 +1,5 @@
 //Modules
+require('dotenv').config();
 const fs = require('fs');
 const mocha = require('mocha');
 const chai = require('chai');
@@ -11,7 +12,7 @@ const shared = require('../shared');
 
 describe('CoinGecko', function () {
   before(function (done) {
-    this.CoinGeckoClient = new CoinGecko();
+    this.CoinGeckoClient = new CoinGecko(process.env.API_KEY);
 
     done();
   });
